@@ -1,0 +1,28 @@
+{
+  "name": "@local/dsh-settings-footer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Restore the pre-0.2.1 sidebar-footer settings button (设置) in the DSH Web UI instead of the account \"更多\" menu.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-locale"]
+    }
+  }
+}
