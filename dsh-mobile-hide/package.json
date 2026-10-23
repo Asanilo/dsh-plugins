@@ -2,7 +2,7 @@
   "name": "@local/dsh-mobile-hide",
   "version": "1.0.0",
   "private": true,
-  "description": "Mobile trims for the DSH Web UI: hides the desktop mascot and the meme trigger on narrow touch screens, and keeps the permission/model pickers on one line.",
+  "description": "Mobile trims for the DSH Web UI: hides the desktop mascot on narrow touch screens and keeps the permission/model pickers on one line.",
   "type": "module",
   "exports": {
     ".": "./index.js",
@@ -18,7 +18,9 @@
     "icon.svg"
   ],
   "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "client": {
       "platform": "web",
       "immediately": true

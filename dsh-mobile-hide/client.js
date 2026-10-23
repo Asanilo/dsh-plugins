@@ -13,9 +13,9 @@
  *      no `touch-action`, so on a phone its drag handler never wins gesture
  *      arbitration (the browser claims the touch for scrolling). The pet still
  *      lives on the desktop.
- *    - `.meme-trigger` — the dsh-meme button registered into
- *      `conversation.input.left`. Only the trigger is hidden; the picker overlay
- *      and every host-side capability stay installed.
+ *    (The dsh-meme trigger was hidden here while its assets were loopback-only;
+ *    once the host allowlist admitted the tailnet origin the button works
+ *    remotely again, so it is deliberately NOT hidden any more.)
  *
  * 2. LAYOUT — the composer control row. The portrait layer wraps the row into
  *    two lines (`[class$="_row"]{flex-wrap:wrap}` plus `[class$="_trailing"]`
@@ -34,8 +34,6 @@ window.__ModuleLoader__.load({
     const HIDDEN = [
       // dsh-pet mascot (fixed overlay, no touch-action)
       '.dsh-pet-root',
-      // dsh-meme composer trigger button
-      '.meme-trigger',
     ];
 
     /**

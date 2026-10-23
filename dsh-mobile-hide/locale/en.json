@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "Mobile trim",
-    "description": "Hides the desktop mascot and the meme trigger on narrow touch screens and keeps the permission/model pickers on one line."
+    "description": "Hides the desktop mascot on narrow touch screens and keeps the permission/model pickers on one line."
   }
 }
