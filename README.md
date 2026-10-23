@@ -24,6 +24,7 @@ dsh-plugins/
 | 插件 | 作用 |
 | --- | --- |
 | [`dsh-settings-footer`](dsh-settings-footer/) | 把 dsh 0.2.1 侧边栏底部的账号「⋯ 更多」二级菜单还原成旧版的单行「⚙ 设置」按钮。 |
+| [`dsh-mobile-hide`](dsh-mobile-hide/) | 手机端精简：窄屏触控设备上隐藏桌宠（`dsh-pet`）与表情按钮（`dsh-meme` 输入栏触发器），并把权限/模型选择器排成一行。 |
 
 ## 安装 / 更新
 

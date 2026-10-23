@@ -1,0 +1,3 @@
+- insert:
+    - id: mobile-hide
+      name: '@local/dsh-mobile-hide'

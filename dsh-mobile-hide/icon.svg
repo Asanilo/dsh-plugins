@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Phone with a trimmed composer row">
+  <rect width="64" height="64" rx="14" fill="#2F8F6B"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="20" y="11" width="24" height="42" rx="6"/>
+    <path d="M28.5 16.5h7"/>
+    <path d="M25 38h5M33 38h6"/>
+    <path d="M25 45h14"/>
+  </g>
+</svg>
